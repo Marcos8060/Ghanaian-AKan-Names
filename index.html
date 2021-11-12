@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Akan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,23 @@
         <form id="form">
             <label class="form-label" for="name">Enter name</label>
             <input class="form-control" type="text" placeholder="Enter your name...">
+            <div class="row">
+                <div class="col">
+                    <label class="form-label" for="year">Year</label>
+                    <input class="form-control" type="text" placeholder="YOB">
+                </div>
+                <div class="col">
+                    <label class="form-label" for="year">Date</label>
+                    <input class="form-control" type="text" placeholder="DOB">
+                </div>
+                <div class="col">
+                    <label class="form-label" for="year">Gender</label>
+                    <select class="form-select" name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
         </form>
     </div>
   </div>
