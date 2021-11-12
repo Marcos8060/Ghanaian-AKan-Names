@@ -40,3 +40,8 @@ span{
     text-transform: uppercase;
     font-weight: bolder;
 }
+footer{
+    background-color: black;
+    color: white;
+    height: 70px;
+}
