@@ -30,3 +30,13 @@ span{
     width: 60%;
     margin: auto;
 }
+.form-section{
+    width: 60%;
+    margin: auto;
+}
+.btn{
+    background-color: #F9A93B;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
