@@ -47,21 +47,22 @@
         <h3 class="text-center mt-5">We can't wait to get your <span>Akan</span> name</h3>
         <p class="text-center">Please fill in the fields below to help us get your Akan name</p>
     </div>
+    <!-- alert section -->
+    <div class="searchContainer">
+      <div class="search"></div>
+    </div>
+    <!-- End of alert section -->
     <div class="form-section">
         <form id="form">
             <label class="form-label" for="name">Enter name</label>
             <input id="name" class="form-control" type="text" placeholder="Enter your name...">
             <div class="row">
                 <div class="col">
-                    <label class="form-label" for="year">Year</label>
-                    <input id="year" class="form-control" type="text" placeholder="YOB">
-                </div>
-                <div class="col">
                     <label class="form-label" for="year">Date</label>
-                    <input id="date" class="form-control" type="text" placeholder="DOB">
+                    <input id="date" class="form-control" type="date" placeholder="DOB">
                 </div>
                 <div class="col">
-                    <label class="form-label" for="year">Gender</label>
+                    <label class="form-label" for="gender">Gender</label>
                     <select class="form-select" name="gender" id="gender">
                         <option value="male">Male</option>
                         <option value="female">Female</option>
@@ -75,5 +76,7 @@
   <footer>
       <h3 class="text-center pt-3">@Copyright All Rights Reserved</h3>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
