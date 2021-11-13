@@ -16,6 +16,8 @@ const d = new Date(dateInput.value);
 
 let day = days[d.getDay()];
 
+// sunday male
+
 if(day == 'Sunday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -29,6 +31,8 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+
+    // sunday female
 } else if(day == 'Sunday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -42,6 +46,8 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+
+    // moday male
 } else if(day == 'Monday' && genderInput.value == 'male'){
      // create element
      const h6 = document.createElement('h6');
@@ -55,6 +61,8 @@ if(day == 'Sunday' && genderInput.value == 'male'){
      const search = document.querySelector('.search');
      // insert text
      searchContainer.insertBefore(h6,search);
+
+    //  monday female
 } else if(day == 'Monday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -68,6 +76,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+    // tuesday male
 } else if(day == 'Tuesday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -81,6 +90,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+    // tuesday female
 } else if(day == 'Tuesday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -94,6 +104,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// wednesday male
 } else if(day == 'Wednesday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -107,6 +118,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// wednesday female
 } else if(day == 'Wednesday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -120,32 +132,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
-} else if(day == 'Tuesday' && genderInput.value == 'female'){
-    // create element
-    const h6 = document.createElement('h6');
-    // add class 
-    h6.className = 'alert alert-success text-center';
-    // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
-    // search container
-    const searchContainer = document.querySelector('.searchContainer');
-    // search box
-    const search = document.querySelector('.search');
-    // insert text
-    searchContainer.insertBefore(h6,search);
-} else if(day == 'Tuesday' && genderInput.value == 'female'){
-    // create element
-    const h6 = document.createElement('h6');
-    // add class 
-    h6.className = 'alert alert-success text-center';
-    // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
-    // search container
-    const searchContainer = document.querySelector('.searchContainer');
-    // search box
-    const search = document.querySelector('.search');
-    // insert text
-    searchContainer.insertBefore(h6,search);
+// thursday male
 } else if(day == 'Thursday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -159,6 +146,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// thursday female
 } else if(day == 'Thursday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -172,6 +160,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// friday male
 } else if(day == 'Friday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -185,6 +174,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// friday female
 } else if(day == 'Friday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -198,6 +188,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// saturday male
 } else if(day == 'Saturday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
@@ -211,6 +202,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     const search = document.querySelector('.search');
     // insert text
     searchContainer.insertBefore(h6,search);
+// saturday female
 } else if(day == 'Saturday' && genderInput.value == 'female'){
     // create element
     const h6 = document.createElement('h6');
@@ -225,12 +217,6 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // insert text
     searchContainer.insertBefore(h6,search);
 }
-
-
-
-
-
-
 
 
 e.preventDefault();
