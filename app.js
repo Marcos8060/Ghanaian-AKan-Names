@@ -111,7 +111,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // create element
     const h6 = document.createElement('h6');
     // add class 
-    h6.className = 'alert alert-success text-center';
+    h6.className = 'alert text-center';
     // text node
     h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwaku.`));
     // search container
@@ -222,7 +222,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
 
 setTimeout(()=>{
     clearAlert();
-},3000);
+},4000);
 
 e.preventDefault();
 }

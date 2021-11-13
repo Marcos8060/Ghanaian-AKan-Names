@@ -18,14 +18,28 @@ h1{
     font-weight: bolder;
 }
 span{
-    color: #F9A93B;
+    color: #679436;
+}
+.nav-item a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.nav-item a:hover{
+    color: #679436;
 }
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
-    color: #F9A93B
+    color: #679436;
 }
 /* about */
+.alert{
+    background-color: #679436;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
 .text{
     width: 60%;
     margin: auto;
@@ -35,7 +49,7 @@ span{
     margin: auto;
 }
 .btn{
-    background-color: #F9A93B;
+    background-color: #679436;
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
@@ -44,4 +58,7 @@ footer{
     background-color: black;
     color: white;
     height: 70px;
+}
+.about_section{
+    background-color: #C9D2D9;
 }
