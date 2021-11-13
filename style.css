@@ -40,6 +40,15 @@ span{
     width: 60%;
     margin: auto;
 }
+.alert1{
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    height: 40px;
+    padding-top: 10px;
+}
 .text{
     width: 60%;
     margin: auto;

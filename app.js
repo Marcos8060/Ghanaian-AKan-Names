@@ -16,8 +16,22 @@ const d = new Date(dateInput.value);
 
 let day = days[d.getDay()];
 
-// sunday male
+if(nameInput.value == '' || dateInput.value == ''){
+   // create element
+   const h6 = document.createElement('h6');
+   // add class 
+   h6.className = 'alert1 alert-danger text-center';
+   // text node
+   h6.appendChild(document.createTextNode('Please fill in all the required fields!!'));
+   // search container
+   const searchContainer = document.querySelector('.searchContainer');
+   // search box
+   const search = document.querySelector('.search');
+   // insert text
+   searchContainer.insertBefore(h6,search);
+}
 
+// sunday male
 if(day == 'Sunday' && genderInput.value == 'male'){
     // clear alert
     clearAlert();
@@ -229,8 +243,12 @@ e.preventDefault();
 
 function clearAlert(){
     const currentAlert = document.querySelector('.alert');
+    const danger = document.querySelector('.alert1');
     if(currentAlert){
        currentAlert.remove();
+    }
+    if(danger){
+        danger.remove();
     }
 }
 
