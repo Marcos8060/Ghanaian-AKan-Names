@@ -19,6 +19,8 @@ let day = days[d.getDay()];
 // sunday male
 
 if(day == 'Sunday' && genderInput.value == 'male'){
+    // clear alert
+    clearAlert();
     // create element
     const h6 = document.createElement('h6');
     // add class 
@@ -39,7 +41,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Akosua.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -54,7 +56,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
      // add class 
      h6.className = 'alert alert-success text-center';
      // text node
-     h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+     h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwadwo.`));
      // search container
      const searchContainer = document.querySelector('.searchContainer');
      // search box
@@ -69,7 +71,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Adwoa.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -83,7 +85,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwabena.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -97,7 +99,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Abenaa.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -111,7 +113,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwaku.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -125,7 +127,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Akua.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -139,7 +141,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Yaw.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -153,7 +155,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Yaa.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -167,7 +169,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kofi.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -181,7 +183,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Afua.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -195,7 +197,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwame.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -209,7 +211,7 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     // add class 
     h6.className = 'alert alert-success text-center';
     // text node
-    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Kwasi.`));
+    h6.appendChild(document.createTextNode(`Thank you ${nameInput.value}, your Akan name is Ama.`));
     // search container
     const searchContainer = document.querySelector('.searchContainer');
     // search box
@@ -218,7 +220,18 @@ if(day == 'Sunday' && genderInput.value == 'male'){
     searchContainer.insertBefore(h6,search);
 }
 
+setTimeout(()=>{
+    clearAlert();
+},3000);
 
 e.preventDefault();
 }
+
+function clearAlert(){
+    const currentAlert = document.querySelector('.alert');
+    if(currentAlert){
+       currentAlert.remove();
+    }
+}
+
 
